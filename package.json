@@ -1,0 +1,30 @@
+{
+  "name": "resume_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsha-iiiv/resume_parser.git"
+  },
+  "author": "Harsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsha-iiiv/resume_parser/issues"
+  },
+  "homepage": "https://github.com/harsha-iiiv/resume_parser#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "json2csv": "^5.0.0",
+    "mongoose": "^5.9.4",
+    "pdf2json": "^1.2.0"
+  }
+}
